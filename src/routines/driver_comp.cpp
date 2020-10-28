@@ -17,7 +17,7 @@ void driver_comp() {
       intakeLeft.move_velocity(-100);
       intakeRight.move_velocity(-100);
       barrelFrontLeft.move_velocity(-100);
-      barrelFrontRight.move_velocity(-100);      
+      barrelFrontRight.move_velocity(-100);
       barrelBack.move_velocity(-100) ;
     }else{
       intakeLeft.move_velocity(0);
@@ -26,6 +26,5 @@ void driver_comp() {
       barrelFrontRight.move_velocity(0);
       barrelBack.move_velocity(0);
     }
-
   }
 }
