@@ -5,10 +5,18 @@ using namespace pros;
 
 Motor driveFrontLeft(PORT_DRIVE_FRONT_LEFT);
 Motor driveFrontRight(PORT_DRIVE_FRONT_RIGHT, true);
-//Motor driveCenterLeft(PORT_DRIVE_CENTER_LEFT);
-//Motor driveCenterRight(PORT_DRIVE_CENTER_RIGHT);
 Motor driveBackLeft(PORT_DRIVE_BACK_LEFT);
 Motor driveBackRight(PORT_DRIVE_BACK_RIGHT, true);
+
+Motor intakeRight(PORT_INTAKE_RIGHT, true);
+Motor intakeLeft(PORT_INTAKE_LEFT);
+
+Motor barrelFrontLeft(PORT_BARREL_FRONT_LEFT, true);
+Motor barrelFrontRight(PORT_BARREL_FRONT_RIGHT);
+Motor barrelBack(PORT_BARREL_BACK, true);
+
+
+
 
 Controller joystick(E_CONTROLLER_MASTER);
 
