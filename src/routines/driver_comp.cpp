@@ -1,5 +1,5 @@
 #include "routines/driver_comp.h"
-
+//Does this show up on the thing
 void driver_comp() {
   while (true) {
     driveFrontLeft.move(joystick.get_analog(pros::E_CONTROLLER_ANALOG_LEFT_Y));
